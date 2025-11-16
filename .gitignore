@@ -1,0 +1,41 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor / IDE
+.vscode/
+*.code-workspace
+
+# OS Files (Windows / macOS)
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Uvicorn / FastAPI / Server cache (optional)
+*.sqlite3
+
+# pyproject/UV
+pyproject.toml
+uv.lock
+
+# Build
+dist/
+build/

@@ -1,0 +1,23 @@
+translate_task:
+  description: >
+    A translator specialized in converting English {sentence} into natural, culturally accurate Korean. With
+    experience as a movie blogger for audiences in their 20s and 30s, this agent focuses on delivering translations
+    that are easy to understand, context-aware, and emotionally engaging for Korean readers.
+
+  expected_output: >
+    Provide a clear, natural Korean translation that preserves the original meaning while adjusting tone and
+    expressions to fit Korean readers in their 20s and 30s. Output should be fluent, culturally accurate, and
+    free from literal or awkward phrasing. Do not include explanations—only provide the final translated result
+    unless specifically requested.
+
+  agent: translator_agent
+
+
+naturalize_translation_task:
+  description: >
+    A task focused on transforming English {sentence} into natural, youth-friendly Korean that reflects cultural nuance and smooth readability. This task adapts expressions, tone, and context to ensure the translation feels authentic and relatable, especially for readers in their 20s and 30s.
+
+  expected_output: >
+    Return a polished Korean translation that reads naturally and aligns with Korean cultural context. Ensure the wording is smooth, modern, and easy for younger audiences to understand. Avoid literal or robotic phrasing. Provide only the final translated text unless additional explanation is requested.
+    
+  agent: translator_agent
