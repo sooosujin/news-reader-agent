@@ -21,3 +21,10 @@ naturalize_translation_task:
     Return a polished Korean translation that reads naturally and aligns with Korean cultural context. Ensure the wording is smooth, modern, and easy for younger audiences to understand. Avoid literal or robotic phrasing. Provide only the final translated text unless additional explanation is requested.
     
   agent: translator_agent
+
+counter_task:
+  description: >
+    Count the amount of letters in a sentence.
+  expected_output: >
+    The number of letters in a sentence.
+  agent: counter_agent
